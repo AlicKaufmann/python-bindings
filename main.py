@@ -1,14 +1,11 @@
-import torch
 
-# Create a tensor
-x = torch.tensor([1, 2, 3, 4, 5])
+def main():
+    print(add(3, 4))
 
-# Print the tensor
-print("Tensor:", x)
+def add(x: int, y: int):
+    return x + y
 
-# Perform a simple operation (e.g., multiply each element by 2)
-y = x * 2
+if __name__=='__main__':
+    main()
 
-# Print the result
-print("Result:", y)
 
